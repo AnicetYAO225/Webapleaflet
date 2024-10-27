@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Carte de densité des pays africains</title>
+    <link rel="stylesheet" href="style.css"> <!-- Etape 0 : connexion au CSS-->
+
+    <!-- Etape 2 : Importer la bibliothèque Leaflet en style CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <!-- Etape 3 : Ajouter les fonds de carte de la bibliothèque Leaflet : VOIR JS -->
+
+    <!-- Etape 4 : Ajouter mon GEOJSON d'Afrique : VOIR JS-->
+    <!-- Etape 4 - Phase finale : Affichage de la carte grâce à la connexion avec notre ficher JS-->
+    <script src="Afrique.js"></script>
+
+    <!-- Etape 5 : Passer à une carte chloropèthe : VOIR JS DE MON PROJET-->
+
+    <!-- Etape 6 : Ajouter de l'interaction -->
+
+    <!-- Etape 7 : Ajouter une legende : Voir JS  -->
+
+
+</head>
+<body>    
+    <h1 id="titre">Carte interactive de la densité de population des pays africains</h1>
+    
+    <div id="map"></div> <!-- Etape 1 : création d'une fenetre pour la carte et direction CSS-->
+        
+    <!-- Etape 2 : Importer la bibliothèque Leaflet en style JS-->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="">
+    </script>
+
+    <script src="main.js"></script> <!-- Etape 0 :connexion au JS : Ce lien doit toujours être en bas-->
+</body>
+</html>

@@ -1,0 +1,46 @@
+#map {height:750px;} /*Etape 1 : taille de la carte et direction JS*/
+
+
+/*Etape 7 : Styliser la légende*/
+
+.info.legend { /*Styliser la boite de légende*/ 
+    padding: 10px; /* marge */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;  /* Bordure arrondie */
+    box-shadow: 0 0 20px rgba(0, 0, 0); /* Ombre douce */
+    line-height: 2;  /* Espacement entre les lignes */
+    color: #080808;  /* Couleur du texte plus douce */
+}
+
+.info.legend i { /*Styliser chaque boite de couleur*/ 
+    display: inline-block;
+    width: 20px;  /* Augmentation de la taille des carrés */
+    height: 20px;
+    margin-right: 15px;  /* Plus d'espace entre les carrés et le texte */
+    vertical-align: middle;
+    border: 1px dashed #4a3434;  /* Bordure légère autour des carrés */
+}
+
+.info.legend p{ /* Styliser pour le titre de la légende */
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*Etape finale : Habillage de ma page*/
+#titre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
